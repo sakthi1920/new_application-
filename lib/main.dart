@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as Math;
+
 void main() {
   return runApp(RunApp());
 }
@@ -9,10 +10,11 @@ class RunApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Remainder',
-      home: RunApp(),
+      home: AnimationTest(),
     );
   }
 }
+
 
 class AnimationTest extends StatefulWidget {
   @override
